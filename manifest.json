@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube annotation & card blocker",
+    "version": "1.2",
+    "description": "Hides annotations and info cards on yt videos by default.",
+    "host_permissions": [
+      "*://*.youtube.com/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/watch*"],
+        "js": ["content.js"],
+        "css": ["style.css"],
+        "run_at": "document_idle"
+      }
+    ]
+  }
+    
