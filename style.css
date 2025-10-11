@@ -1,16 +1,8 @@
-.ytp-ce-element {
+.ytp-ce-element,
+.iv-annotation,
+.ytp-cards-button,
+.ytp-cards-teaser,
+.ytp-badge,
+.ytp-pause-overlay {
     display: none !important;
-  }
-  
-  .iv-annotation {
-    display: none !important;
-  }
-  
-  .ytp-cards-button {
-    display: none !important;
-  }
-  
-  .ytp-cards-teaser {
-    display: none !important;
-  }
-  
+}
